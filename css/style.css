@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito Sans', sans-serif;
+	text-decoration: none !important; 
+    scroll-behavior: smooth;
+}
+
+main{
+	display: none;
+}
+.dmblock{
+	display: block;
+}
+body p, span{
+	letter-spacing: 1 px;
+}
+
+body li{
+	list-style: none!important;
+}
+.content-box-xl{
+	padding: 200px 0; 
+}
+
+.content-box-lg{
+	padding: 180px 0; 
+}
+.content-box-md{
+	padding: 160px 0; 
+}
+.content-box-sm{
+	padding: 140px 0; 
+}
+.content-box{
+	padding: 120px 0; 
+}
+
+
+/*HEADER*/
+
+header{
+	width: 	100%;
+    background-image:  linear-gradient(-255deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+ 	overflow: hidden;
+ }
+
+ .header .header-text .header-video button{
+ 	width: 55px;
+ 	height: 55px;
+ 	background: #EE8293;
+ }
+ .header .navbar ul li.active a{
+ 	color: #EE8293!important;
+ }
+
+ /* FEATURE */
+ #feature .row .col-lg-6 a{
+ 	color:  #EE8293!important;
+ }
+
+  #feature .row .col-lg-6 i{
+ 	color:  #EE8293!important;
+ }
+
+ /* SERVICE */
+ #service{
+ 	background-color: #f8f9fb;
+ }
+
+ #service .row .col-lg-4 i{
+ 	color:  #EE8293!important;
+ }
+
+ /* SMALL */
+ #small{
+ 	background: linear-gradient(rgb(0,0,0, .7), rgb(0,0,0, .7)), url(../img/bg.jpg);
+ 	background-size: cover;
+ 	background-attachment: fixed; 
+}
+ /* pricing */
+#pricing{
+ 	background: #f8f9fb;
+}
+
+
+/*client*/
+
+
+#clients{
+ 	background: #f8f9fb;
+}
+
+/* about */
+#about .container a.pb-3{
+	color: #EE8293!important;
+	border-bottom: 1px solid #ee8293;
+}
+
+/* blog */
+#blog{
+	background: #f8f9fb;
+}
+
+#blog  .container .row .col-lg-4 p{
+	color: grey;
+}
+
+#blog  .container .row .col-lg-4 span{
+	font-size: 14px;
+}
+
+#blog  .container .row .col-lg-4 a{
+	color: #ee8293;
+}
+
+/* contact */
+#contact .content-box .container form  .col-12 textarea{
+	height: 100px;
+	resize: none;
+}
+
+/* FOOTER */
+#footer .content-box .container .row .col-lg-4 .col-lg-6{
+	padding: 0!important;
+	margin: 0!important;
+}
+#footer .container .row .col-lg-4 ul li a:hover{
+	color: #ee8293!important;
+}
+
+#footer .container .row .col-lg-4 a.h4{
+	color: #ee8293;
+}
+#footer .container .row .col-lg-4 ul li.rounded-circle{
+	width: 35px;
+	height: 35px;
+}
